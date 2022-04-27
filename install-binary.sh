@@ -16,7 +16,7 @@ if [ -z $VERSION ]; then
     VERSION='latest'
 fi
 PROJECT_NAME="helm-ssm"
-PROJECT_GH="cocorobotics/$PROJECT_NAME"
+PROJECT_GH="codacy/$PROJECT_NAME"
 eval $(helm env)
 
 if [[ $SKIP_BIN_INSTALL == "1" ]]; then
